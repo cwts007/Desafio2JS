@@ -1,0 +1,110 @@
+body {
+  display: flex;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  background-color: #1a1a1a;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #0d0d0d;
+  padding: 10px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.logo img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.menu ul {
+  width: 500px;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.principal {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 100px;
+
+  height: 50vh;
+  width: 100vh;
+}
+
+.principal a {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px;
+  background-color: #0074D9;
+
+  color: #FFFFFF;
+
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.principal a:hover {
+  background-color: #005689;
+}
+
+.active {
+  color: yellow;
+}
+
+.imgborde {
+  height: 500px;
+  width: 500px;
+}
+
+.img-container {
+  position: relative;
+}
+
+.imgborde {
+
+  max-width: 100%;
+  height: auto;
+}
+
+.imgborde.active {
+  border: 2px solid red;
+}
+
+.sticker {
+  display: flex;
+  flex-direction: column;
+}
+
+.sticker img {
+
+  height: 100px;
+  width: 100px;
+}
+.password {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/normalize.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <title>Condiciones - STICKERS</title>
+</head>
+
+<body>
+    <header>
+        <nav class="menu">
+
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="./borde.html">Borde</a></li>
+                <li><a class="active" href="./stickers.html">Stickers</a></li>
+                <li><a href="./password.html">Password</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="principal">
+
+        <h1>Pedido de Stickers (10 max)</h1>
+
+        <div class="sticker">
+            <img src="../assets/images/sticker1.jpeg" alt="Sticker 1">
+            <input type="number" id="sticker1Input" min="0" max="10">
+        </div>
+        <div class="sticker">
+            <img src="../assets/images/sticker2.png" alt="Sticker 2">
+            <input type="number" id="sticker2Input" min="0" max="10">
+        </div>
+        <div class="sticker">
+            <img src="../assets/images/sticker3.png" alt="Sticker 3">
+            <input type="number" id="sticker3Input" min="0" max="10">
+        </div>
+        <button onclick="calcularStickers()">Calcular</button>
+        <p id="resultado"></p>
+
+        <script src="../assets/js/script2.js"></script>
+
+    </main>
+</body>
+
+</html>
